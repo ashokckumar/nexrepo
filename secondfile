@@ -1,0 +1,8 @@
+ Record Terminal Session (Text Output) — No Built-in Shortcut
+There is no native keyboard shortcut in Windows CMD or PowerShell to start logging/recording text. You must:
+
+Manually start Start-Transcript in PowerShell (no shortcut).
+
+Use tee or output redirection manually (>, >>).
+
+If you want a shortcut to launch CMD and start logging automatically, you'd need to make a custom batch file or shortcut icon, not just a keypress.
